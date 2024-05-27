@@ -1,0 +1,27 @@
+{
+  "name": "smarttools",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vant": "^4.9.0",
+    "vite-plugin-pages": "^0.32.1",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vue/compiler-sfc": "^3.4.27",
+    "less": "^4.2.0",
+    "less-loader": "^12.2.0",
+    "unplugin-auto-import": "^0.17.6",
+    "unplugin-vue-components": "^0.27.0",
+    "vite": "^5.2.0",
+    "vite-plugin-style-import": "^2.0.0"
+  }
+}
