@@ -7,6 +7,10 @@ import { VantResolver } from 'unplugin-vue-components/resolvers';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/jsxiong/SmartTools',
+  build: {
+    outDir: 'dist',
+  },
   server: {
     host: '0.0.0.0'
   },
